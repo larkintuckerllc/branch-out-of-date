@@ -1,3 +1,3 @@
 const A = true;
-const B = true;
+const B = false;
 module.exports = A || B;
