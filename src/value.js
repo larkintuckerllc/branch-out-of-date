@@ -1,3 +1,3 @@
-const A = false;
-const B = true;
-module.exports = A || B;
+const a = require('./a');
+const b = require('./b');
+module.exports = a || b;
